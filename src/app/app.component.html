@@ -1,1 +1,5 @@
+
+<form  [formGroup]="form" >
 <p-dropdown [options]="cities" optionLabel="Name" formControlName="selectedCity" ></p-dropdown>
+</form>
+<pre>This is selected: {{form.value | json}}</pre>
