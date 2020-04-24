@@ -22,7 +22,11 @@ export class AppComponent {
    {
      Id:3,
      Name:"Missisauga"
-   }
+   },
+   {
+    Id:4,
+    Name:"Calgary"
+  }
  ]
   }
   form = new FormGroup({
