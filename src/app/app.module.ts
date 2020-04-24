@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { DropdownModule } from "primeng/dropdown";
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    DropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
